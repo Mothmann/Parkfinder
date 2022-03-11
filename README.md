@@ -1,0 +1,1 @@
+A project that uses a backend with node.js, an arduino to detect parked cars, a front end with react native and a static website to present the brand.

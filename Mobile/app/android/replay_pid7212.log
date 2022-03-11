@@ -1,0 +1,38 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 186 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 194818 0 0
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 3073 1 4727 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 6145 1 768 0 -1
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 2161 1 47472 0 160
+ciMethod java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 2137 9 5628 0 544
+ciMethod java/util/HashMap containsKey (Ljava/lang/Object;)Z 105 1 21625 0 576
+ciMethod java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 713 1 5839 0 1664
+ciMethod java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; 745 41 5611 0 1504
+ciMethod java/util/HashMap resize ()[Ljava/util/HashMap$Node; 257 313 1157 0 0
+ciMethod java/util/HashMap treeifyBin ([Ljava/util/HashMap$Node;I)V 0 0 1 0 -1
+ciMethod java/util/HashMap removeNode (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/util/HashMap$Node; 0 0 5 0 -1
+ciMethod java/util/HashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node; 2169 1 4423 0 0
+ciMethod java/util/HashMap afterNodeAccess (Ljava/util/HashMap$Node;)V 2049 1 300 0 0
+ciMethod java/util/HashMap afterNodeInsertion (Z)V 2241 1 1345 0 0
+ciMethod java/util/HashMap$Node <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V 2073 1 11603 0 0
+ciMethod java/lang/Math min (II)I 4097 1 51240 0 -1
+ciMethod java/util/Arrays equals ([B[B)Z 1913 25281 13139 0 448
+ciMethod java/util/Arrays copyOf ([BI)[B 2089 1 16222 0 0
+ciMethod java/util/Arrays hashCode ([B)I 1489 74529 6656 0 384
+ciMethod java/util/LinkedHashMap linkNodeLast (Ljava/util/LinkedHashMap$Entry;)V 2369 1 7131 0 0
+ciMethod java/util/LinkedHashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node; 2369 1 7131 0 320
+ciMethod java/util/LinkedHashMap afterNodeInsertion (Z)V 3481 1 7931 0 128
+ciMethod java/util/LinkedHashMap afterNodeAccess (Ljava/util/HashMap$Node;)V 169 1 172 0 0
+ciMethod java/util/LinkedHashMap get (Ljava/lang/Object;)Ljava/lang/Object; 4097 1 13525 0 672
+ciMethod java/util/LinkedHashMap removeEldestEntry (Ljava/util/Map$Entry;)Z 1073 1 134 0 0
+ciMethod java/util/LinkedHashMap$Entry <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V 2369 1 7131 0 0
+ciMethodData java/lang/Object <init> ()V 2 194819 orig 264 88 115 181 118 0 0 0 0 128 4 24 27 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 25 184 23 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/HashMap$TreeNode getTreeNode (ILjava/lang/Object;)Ljava/util/HashMap$TreeNode; 0 0 1 0 -1
+ciMethod java/util/HashMap$TreeNode putTreeVal (Ljava/util/HashMap;[Ljava/util/HashMap$Node;ILjava/lang/Object;Ljava/lang/Object;)Ljava/util/HashMap$TreeNode; 0 0 1 0 -1
+ciMethod java/util/HashMap$TreeNode split (Ljava/util/HashMap;[Ljava/util/HashMap$Node;II)V 0 0 1 0 -1
+ciMethod java/util/HashSet contains (Ljava/lang/Object;)Z 2105 1 18443 0 0
+ciMethod java/util/HashSet add (Ljava/lang/Object;)Z 2065 1 3043 0 0
+ciMethodData java/util/HashMap hash (Ljava/lang/Object;)I 2 47816 orig 264 88 115 181 118 0 0 0 0 152 133 38 27 0 0 0 0 176 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14 1 0 0 177 205 5 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 104 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 13 0x10007 0xb9b8 0x38 0x0 0x50003 0x0 0x48 0x90005 0x93bc 0x1bb11fe0 0x313 0x23ec5e0 0x22e8 oops 2
